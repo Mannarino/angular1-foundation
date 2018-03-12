@@ -1,0 +1,61 @@
+/* Estilos propios */
+
+/* acomodar botones*/
+ .columns:last-child {
+    float: left !important;
+  }
+  /* estilos de la lista de usuarios*/
+  .usuario-numero{
+  	position: absolute;
+  	top: 11px;
+  	right: 100px;
+  	color: white;
+  	padding: 6px 10px;
+  	background-color: #228B22;
+  	border-radius: 70%;
+  }
+  .boton-eliminar{
+  	position: absolute;
+  	top:  155px;
+  	right: 10px;
+  }
+  .boton-modificar{
+  	position: absolute;
+  	top:  155px;
+  	right: 110px;
+  }
+  .contenedor-datos-usuarios{
+    height: 200px;
+    position: relative;
+  }
+  .contenedor-datos-usuarios h4{
+    text-decoration: underline;
+  }
+  .datos-usuarios{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 5px;
+    
+  }
+
+/* estilos usuario reciente*/
+.usuario-reciente{
+	height: 200px;
+	border-style: solid;
+    border-width: 2px;
+    border-color: #DAA520;
+    margin-bottom: 1.25rem;
+    padding: 1.25rem;
+    color: #333333;
+    border-radius: 3px;
+    animation-name: reciente;
+    animation-duration: 2s;
+}
+@keyframes reciente{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
